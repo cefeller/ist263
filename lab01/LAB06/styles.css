@@ -1,0 +1,16 @@
+p, ul, td, th {
+    color:lavender;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p, ul, h1 {
+    color:lavender;
+    font-size: 200%;
+}
+
+p, ul, h2 {
+    color:lavender;
+    font-size: 100%;
+}
+.evenrow{
+    color:lightsteelblue;
+}
