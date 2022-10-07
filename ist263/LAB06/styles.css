@@ -1,16 +1,16 @@
 p, ul, td, th {
-    color:lavender;
+    color:hotpink;
     font-family:Arial, Helvetica, sans-serif;
 }
-p, ul, h1 {
-    color:lavender;
+ h1 {
+    color:hotpink;
     font-size: 200%;
 }
 
-p, ul, h2 {
-    color:lavender;
+ h2 {
+    color:hotpink;
     font-size: 100%;
 }
 .evenrow{
-    color:lightsteelblue;
+    background-color: darkgrey;
 }
