@@ -1,0 +1,31 @@
+body {
+    background-color:#FFECEF;
+    color: #000000;
+}
+
+
+a:hover {
+color: #182747;
+}
+
+a:visited {
+color: #B7C4CF;
+}
+
+ p{
+    background-color: #DFF6FF;
+    color:#182747;
+}
+
+nav {
+    background-color:#F675A8;
+    padding: 10x;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color:#EDE4E0;
+}
+nav a :hover {background-color:#DFF6FF;}
+
+
