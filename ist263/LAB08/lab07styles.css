@@ -1,0 +1,66 @@
+body {
+    background-color:#FFECEF;
+    color: #000000;
+}
+
+
+a:hover {
+color: #182747;
+}
+
+a:visited {
+color: #040745;
+}
+
+ p{
+    background-color: #f192d4;
+    color:#ffffff;
+}
+
+nav {
+    background-color:#d2b4c5;
+    padding: 10x;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color:#EDE4E0;
+}
+nav a :hover {background-color:#DFF6FF;}
+
+.quote{
+    float: right; margin-right: 10px;
+}
+
+.header{
+    float: right; margin-right: 10px;
+}
+
+.class{
+    float: right;
+}
+.clear {clear: both;}
+
+.row1 div{
+    flex: 1;
+    background-color:#d7f0b3;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 10px;
+}
+.row2 div{
+    flex: 1;
+    display: flex;
+    background-color: #f692e3;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 0px;
+}
+
+
+.row1, .row2 {
+    display: flex;
+}
+
