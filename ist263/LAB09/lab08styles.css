@@ -75,10 +75,29 @@ h1 align {
 
 .technicalskills {
     text-align: center;
-    display: flex;
     justify-content: center;
 }
 
 .images {
-    width: 50%;
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+aside {
+    width: 30%;
+    float: right;
+    background-color:#182747;
+    color: #ffffff;
+    border-radius: 20px;
+    justify-content: right;
+ }
+
+.flexbox2 {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: right;
 }
