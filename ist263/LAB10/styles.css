@@ -20,6 +20,7 @@ color: #040745;
 nav {
     background-color:#d2b4c5;
     padding: 10x;
+    width: 100%;
     margin-bottom: 30px;
 }
 
@@ -52,6 +53,7 @@ nav a :hover {background-color:#DFF6FF;}
 .row2 div{
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     background-color: #f692e3;
     padding: 30px;
     margin-bottom: 10px;
@@ -101,3 +103,25 @@ aside {
     margin-bottom: 20px;
     justify-content: right;
 }
+
+.row2 {
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 667px) {
+    nav a {display:block; padding:5px;}
+    span {display:none;} 
+}
+
+@media only screen and (max-width: 667px) {
+    .firstimage {
+        max-width: 100%;
+        display: block;
+    }
+    
+}
+
+
+
+
+
