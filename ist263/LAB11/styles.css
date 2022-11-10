@@ -5,27 +5,27 @@ body {
 
 
 a:hover {
-color: #182747;
+color: #000000;
 }
 
 a:visited {
-color: #040745;
+color: #ffffff;
 }
 
  p{
-    background-color: #f192d4;
+    background-color: #eebce8;
     color:#ffffff;
 }
 
 nav {
-    background-color:#d2b4c5;
+    background-color:#f263f2;
     padding: 10x;
     width: 100%;
     margin-bottom: 30px;
 }
 
 nav a {
-    color:#EDE4E0;
+    color:#000000;
 }
 nav a :hover {background-color:#DFF6FF;}
 
@@ -44,7 +44,7 @@ nav a :hover {background-color:#DFF6FF;}
 
 .row1 div{
     flex: 1;
-    background-color:#d7f0b3;
+    background-color:#717db0;
     padding: 30px;
     margin-bottom: 10px;
     border-radius: 50px;
@@ -54,7 +54,7 @@ nav a :hover {background-color:#DFF6FF;}
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    background-color: #f692e3;
+    background-color: #f0bee1;
     padding: 30px;
     margin-bottom: 10px;
     border-radius: 50px;
