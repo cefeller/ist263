@@ -13,7 +13,7 @@ color: #ffffff;
 }
 
  p{
-    background-color: #b0b3f4;
+    background-color: #8d9fe9;
     color:#ffffff;
 }
 
@@ -44,7 +44,7 @@ nav a :hover {background-color:#DFF6FF;}
 
 .row1 div{
     flex: 1;
-    background-color:#717db0;
+    background-color:#b9e8ba;
     padding: 30px;
     margin-bottom: 10px;
     border-radius: 50px;
