@@ -1,0 +1,134 @@
+body {
+    background-color:#FFECEF;
+    color: #000000;
+}
+
+
+a:hover {
+color: #182747;
+}
+
+a:visited {
+color: #040745;
+}
+
+ p{
+    background-color: #f192d4;
+    color:#ffffff;
+}
+
+nav {
+    background-color:#d2b4c5;
+    padding: 10x;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color:#EDE4E0;
+}
+nav a :hover {background-color:#DFF6FF;}
+
+.quote{
+    float: right; margin-right: 10px;
+}
+
+.header{
+    float: right; margin-right: 10px;
+}
+
+.class{
+    float: right;
+}
+.clear {clear: both;}
+
+.row1 div{
+    flex: 1;
+    background-color:#d7f0b3;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 10px;
+}
+.row2 div{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f692e3;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 0px;
+}
+
+.row1, .row2 {
+    display: flex;
+}
+
+.margincenter {
+    text-align: center;
+    display: flex;
+    color: #000000
+}
+
+h1 align {
+    text-align: center;
+}
+
+.technicalskills {
+    text-align: center;
+    justify-content: center;
+}
+
+.images {
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+aside {
+    width: 30%;
+    float: right;
+    background-color:#182747;
+    color: #ffffff;
+    border-radius: 20px;
+    justify-content: right;
+ }
+
+.flexbox2 {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: right;
+}
+
+.row2 {
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 667px) {
+    nav a {display:block; padding:5px;}
+    span {display:none;} 
+}
+
+@media only screen and (max-width: 667px) {
+    .firstimage {
+        max-width: 100%;
+        display: block;
+    }
+    
+}
+#skip {
+    background-color: #d3ddef;
+    border: 1px solid #000000;
+    padding: 2px;
+    position: absolute;
+    left: -999px;
+}
+#skip:focus {
+    left: 10px;
+}
+
+
