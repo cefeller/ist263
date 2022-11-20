@@ -4,35 +4,150 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+  body {
+        background-color:rgb(241, 223, 238);
+        color:black;
+    }
+    a:hover {
+        color: #000000;
+        }
+    a:visited {
+        color:rgb(246, 92, 225)
+    }
+    nav {
+        background-color:#ffffff;
+        color:#000000;
+        padding: 10x;
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 20px;
+        font-style: inherit;
+        justify-content: space-between;
+        text-decoration: underline;
+    }
+    nav a :hover {
+        background-color:#DFF6FF;
+    }
+    .theabroaddiaries {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        color:#000000
+    }
+
+    .image {
+    display:flex;
+    width: 95%;
+    padding: 10px;
+    justify-content: center;
+    float:right;
+    }
+  
+    .About {
+    float:right;
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 50px ;
+}
+    .clear {
+        clear:both;
+    }
+    .img1 {
+        float:right;
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color:#000000;
+        font-size: 24px;
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: space-around;
+    }
+    .story {
+        display:flex;
+        flex-wrap:wrap;
+        text-transform: capitalize;
+        font-size: 28px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+   .experience {
+        font-size: 24px;
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: space-around;
+   }
+
+   @media only screen and (max-width: 667px) {
+    nav a {display:block; padding:5px;}
+}
+
+    @media only screen and (max-width: 667px) {
+    .image{
+        max-width: 100%;
+        display: block;
+    }
+}
+
+    @media only screen and (max-width: 667px) {
+    .img1{
+        max-width: 100%;
+        display: block;
+    }
+}
+    </style> 
+
     <title>Carly's Site</title>
 </head>
 <body>
+   <a id="skip" tabindex="1" a href="#content">Skip to content</a> <br>
+
     <nav>
-        <a href="https://cefeller.github.io/ist263/ist263/project5/page2.html">Resturuants</a>
-        <a href="https://cefeller.github.io/ist263/ist263/project5/page3.html">Attractions</a>
-        <a href="https://cefeller.github.io/ist263/ist263/project5/page4.html">Night Life</a>
+        <a href="https://cefeller.github.io/ist263/ist263/project5/page2.html" tabindex="1">Resturuants</a>
+        <a href="https://cefeller.github.io/ist263/ist263/project5/page3.html" tabindex="2">Attractions</a>
+        <a href="https://cefeller.github.io/ist263/ist263/project5/page4.html" tabindex="3">Night Life</a> <hr>
+        <a href="https://www.instagram.com/carly.feller/" tabindex="4">Instagram</a> 
+        <a href="mailto:cefeller@syr.edu" tabindex="5">Contact Information</a>
     </nav>
 
-    <h1>The Abroad Diaries</h1>
-    <h2>About me</h2>>
-    <header><img src="../images/cover.jpg" alt="coverphoto"></header> <br>
-    
+    <div class="theabroaddiaries">
+        <h1>The Abroad Diaries</h1> <br>
+    </div>
 
-<p>
- 
-    Welcome to The Abroad Diaries. My name is Carly Feller and I am a senior at Syracuse University.  My junior year I studied abroad in Barcelona and I can say in all honestly it was the best experience of my life. It opened my eyes to a whole different part of the world, by getting to explore different countries, cities, and cultures. <br>
-    
-  </p>
-  <img src="../images/selfimage.jpeg" alt="self photo"> <br>
+    <div class="image">  
+        <img src="../images/cover.jpg" alt="cover">
+    </div>
+
+    <div class="About">
+        Welcome to The Abroad Diaries. My name is Carly Feller and I am a senior at Syracuse University.  My junior year I studied abroad in Barcelona and I can say in all honestly it was the best experience of my life. It opened my eyes to a whole different part of the world, by getting to explore different countries, cities, and cultures
+    </div>
+    <div class="clear"></div>
+</div>
+
+  <img src="../images/selfphoto.jpg" class="img1" alt="self photo"> <br>
+  <div class="story">
+    <h2>My Story</h2> <br>
+</div>
   <p>
-
-
     I have always loved to travel with my family and friends, but I always wished I had a place to go and see recommendations from others while on my vacations So now, after my travels, I wanted to create a space for future study abroad kids, or anyone interested in traveling, to have direct insight to all the amazing places to see in Barcelona specifically. <br>
 </p>    
-<h3>My Experience in Barcelona</h3>
+<div class="experience">
+    <h3>My experience in Barcelona </h3> <br>
+    </div>
+
 <p>
     Before studying abroad I had never traveled to Spain, which ended up being a big reason I picked it as my destination. During my time there, we fully immersed ourselves in the Spanish culture from the food and drinks, the fashion, the language, social aspects, and lifestyle overall. The Spanish people are not shy about their “lax” lifestyle and party culture, which is one of the most popular qualities the country possesses, but there is far more than just eating tapas and drinking Sangria. For any aspiring travelers looking to visit Spain, I have curated a list of the best clubs, restaurants, sight-seeing attractions, and activities to do during your time. 
 </p>
+</div>
 
+<footer>
+    <p class="copy"> &copy; 2022</p>
+    <div class="clear"></div>
+    
+    </footer>
 </body>
 </html>
