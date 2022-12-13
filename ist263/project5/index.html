@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/91cfa052fd.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/91cfa052fd.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="https://cefeller.github.io/ist263/ist263/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
 </head>
 
   <style>
@@ -30,6 +31,7 @@
         width: 100%;
         margin-bottom: 30px;
         text-align: center;
+        font-family: 'Martian Mono', monospace;
         font-size: 20px;
         justify-content: space-between;
         text-decoration: underline;
@@ -40,7 +42,7 @@
     .social {
         color:#000000;
         float: right;
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .theabroaddiaries {
         text-align: center;
@@ -49,14 +51,18 @@
         color:#000000
     }
 
-    .image {
-    display:flex;
-    width: 95%;
-    padding: 10px;
-    justify-content: center;
-    float:right;
+    .images {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        flex-wrap: wrap;
     }
-
+    .cover {
+        flex: 1;
+    }
+    hr {
+        width: 50%;
+     }
     .clear {
         clear:both;
     }
@@ -83,6 +89,11 @@
         font-size: 24px;
         justify-content: space-around;
     }
+    .margincenter {
+            border: 2px solid #31bf3b;
+            width: 30%;
+            margin: 0 auto;
+        }
     .story {
         display:flex;
         flex-wrap:wrap;
@@ -119,44 +130,45 @@
     <title>Carly's Site</title>
 </head>
 <body>
-    <br>
-    <nav>
-        <a href="https://cefeller.github.io/ist263/ist263/project5/page2.html" tabindex="1">Resturuants</a>
-        <a href="https://cefeller.github.io/ist263/ist263/project5/page3.html" tabindex="2">Attractions</a>
-        <a href="https://cefeller.github.io/ist263/ist263/project5/page4.html" tabindex="3">Night Life</a> <hr>
-    </nav>
-<hr>
-    <div class="social">
-        <a href="https://www.instagram.com/carly.feller/" tabindex="4"> <i class="fa-brands fa-instagram"></i></a> 
-
-        <a href="mailto:cefeller@syr.edu" tabindex="5"> <i class="fa-solid fa-envelope"></i></a>
-    </div>
+    <body>
+        <br>
+        <nav>
+            <a href="https://cefeller.github.io/ist263/ist263/project5/index.html" tabindex="1">About</a>
+            <a href="https://cefeller.github.io/ist263/ist263/project5/page2.html" tabindex="2">Resturuants</a>
+            <a href="https://cefeller.github.io/ist263/ist263/project5/page3.html" tabindex="3">Attractions</a>
+            <a href="https://cefeller.github.io/ist263/ist263/project5/page4.html" tabindex="4">Night Life</a> <hr>
+        </nav>
+    <hr>
+        <div class="social">
+            <a href="https://www.instagram.com/carly.feller/" tabindex="4"> <i class="fa-brands fa-instagram"></i></a> 
+    
+            <a href="mailto:cefeller@syr.edu" tabindex="5"> <i class="fa-solid fa-envelope"></i></a>
+        </div>
 
     <div class="theabroaddiaries">
         <h1 class="text-center">The Abroad Diaries</h1> <br>
     </div>
+    <br>
+    <p>
+        Welcome to The Abroad Diaries. My name is Carly Feller and I am a senior at Syracuse University.  My junior year I studied abroad in Barcelona and I can say in all honestly it was the best experience of my life. It opened my eyes to a whole different part of the world, by getting to explore different countries, cities, and cultures. </P>
+   
 
-    <div class="image">  
-        <img src="../images/cover.jpg" alt="cover">
-    </div>
-    
-    <div class="clear"></div>
-
-    <div class="About">
-        <h2>Intro</h2> <br>
-    </div>
-
-
-    <P>
-        Welcome to The Abroad Diaries. My name is Carly Feller and I am a senior at Syracuse University.  My junior year I studied abroad in Barcelona and I can say in all honestly it was the best experience of my life. It opened my eyes to a whole different part of the world, by getting to explore different countries, cities, and cultures
-    </P>
-    <div class="clear"></div>
-
-
-  <img src="../images/selfphoto.jpg" class="img1" alt="self photo"> <br>
+    <div class="images">  
+        <div class="cover">
+            <img src="../images/paris.png"> <hr>
+        </div>
+        <div>
+            <img src="../images/cover.png"> <hr>
+        </div>
+        <div>
+            <img src="../images/ibiza.png"> <hr>
+        </div>
+        </div>
+  
   <div class="story">
     <h2>My Story</h2> <br>
 </div>
+<img src="../images/self image.png" class="img1" alt="self photo"> <hr>
   <p>
     I have always loved to travel with my family and friends, but I always wished I had a place to go and see recommendations from others while on my vacations So now, after my travels, I wanted to create a space for future study abroad kids, or anyone interested in traveling, to have direct insight to all the amazing places to see in Barcelona specifically. <br>
 </p>    
