@@ -107,14 +107,24 @@ body {
         display: block;
     }
 }
-
+#skip {
+    background-color: #ef740f;
+    border: 1px solid #000000;
+    padding: 2px;
+    position: absolute;  
+    left: -999px;
+}
+ #skip:focus {
+    left: 10px;
+}
 </style>
 <body>
     <nav>
-        <a href="https://cefeller.github.io/ist263/ist263/project7/index.html" tabindex="1">About</a>
-        <a href="https://cefeller.github.io/ist263/ist263/project7/resturuants.html" tabindex="2">Resturuants</a>
-        <a href="https://cefeller.github.io/ist263/ist263/project7/attractions.html" tabindex="3">Attractions</a>
-        <a href="https://cefeller.github.io/ist263/ist263/project7/nightlife.html" tabindex="4">Night Life</a> <hr>
+        <a id="skip" tabindex="1" a href="#content">Skip to content</a> <br>
+    <a href="https://cefeller.github.io/ist263/ist263/project7/index.html" tabindex="2">About</a>
+    <a href="https://cefeller.github.io/ist263/ist263/project7/resturuants.html" tabindex="3">Resturuants</a>
+    <a href="https://cefeller.github.io/ist263/ist263/project7/attractions.html" tabindex="4">Attractions</a>
+    <a href="https://cefeller.github.io/ist263/ist263/project7/nightlife.html" tabindex="5">Night Life</a> <hr>
     </nav>
     <hr>
     <div class="social">
@@ -131,7 +141,7 @@ body {
     <h1 class="text-center">Night Life in Barcelona</h1>  <br>
 </div>
     <img class="firstimage" src="../images/Wdrinks.png" alt="W"> 
-<p>It is no secret the Spanish people like to have their fun! Barcelona is definitely the place to go to enjoy the social aspects of their culture and have a good time! The night life is definitely a big part of the culture there and something the country is known for, so it is only fitting to share the best places I found during my time!</p>
+<p id="content">It is no secret the Spanish people like to have their fun! Barcelona is definitely the place to go to enjoy the social aspects of their culture and have a good time! The night life is definitely a big part of the culture there and something the country is known for, so it is only fitting to share the best places I found during my time!</p>
 
 
 <div class="row1">
